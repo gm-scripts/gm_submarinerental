@@ -1,0 +1,90 @@
+{
+  "framework": "esx",
+  "lang": "en",
+  "keys": {
+    "openMenu": 38
+  },
+  "rentForFree": false,
+  "payForTime": true,
+  "payInterval": 5,
+  "blockIfCantPay": false,
+  "payForDamage": false,
+  "damageCost": 1,
+  "payIfDestroyed": true,
+  "destroyedPayMultiplier": 10,
+  "menu": {
+    "scale": 1,
+    "bgPrimary": "#4a4a55",
+    "bgSecondary": "#35353f",
+    "xActive": "#ff666f",
+    "xInactive": "#4a4a55"
+  },
+  "vehicles": [
+    {
+      "model": "submersible2",
+      "label": "Kraken",
+      "price": 62,
+      "info": [
+        "Love the ocean but not keen on the crowded seas filled with superyachts? Explore the depths of the ocean instead with this submersible - get the private ocean you deserve."
+      ]
+    },
+    {
+      "model": "submersible",
+      "label": "Submersible",
+      "price": 74,
+      "info": ["The Submersible features a bubble-like window in at front of its cabin. Outside, the body features tube metal caging, with two lights mounted at the front."]
+    }
+  ],
+  "zones": [
+    {
+      "name": "vespucci pier",
+      "marker": {
+        "x": -1802.2,
+        "y": -1229.13,
+        "z": 0.61
+      },
+      "spawn": {
+        "x": -1796.24,
+        "y": -1234.27,
+        "z": 0.00,
+        "h": 157.46
+      },
+      "showBlip": true
+    }
+  ],
+  "marker": {
+    "type": 1,
+    "direction": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "scale": {
+      "x": 2.0,
+      "y": 2.0,
+      "z": 1.0
+    },
+    "color": {
+      "r": 35,
+      "g": 191,
+      "b": 124
+    },
+    "alpha": 100,
+    "bob": false,
+    "face": false,
+    "distance": {
+      "show": 100.0,
+      "open": 2.0
+    }
+  },
+  "blips": {
+    "color": 17,
+    "id": 308,
+    "size": 1.0
+  }
+}
